@@ -46,23 +46,4 @@ O arquivo `Relatorio_Walmart_Sales.docx` traz a interpretação dos resultados, 
 
 Além da análise em Python, o projeto inclui um dashboard interativo em Power BI com 4 páginas:
 
-| Página | Conteúdo |
-|---|---|
-| **Visão Geral** | Cards de KPI (vendas totais, média semanal, impacto de feriado), evolução das vendas no tempo, filtro por loja |
-| **Feriado vs Normal** | Comparação de vendas médias entre semanas de feriado e normais, e volume total por loja |
-| **Desemprego x Vendas** | Dispersão da relação entre taxa de desemprego e vendas médias por loja |
-| **CPI e Combustível x Vendas** | Dispersão da relação entre inflação (CPI), preço do combustível e vendas médias por loja |
 
-**Principais insights do dashboard:**
-- Semanas de feriado vendem, em média, **+7,84%** a mais que semanas normais.
-- O impacto do feriado não é uniforme entre lojas — algumas têm um salto bem mais expressivo que outras.
-- A relação entre desemprego/CPI/combustível e vendas é fraca a moderada, sem um padrão linear forte — reforçando que o porte da loja pesa mais no volume de vendas do que esses indicadores macroeconômicos isolados.
-
-### Como visualizar
-O arquivo `.pbix` requer o [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (gratuito) para ser aberto e explorado interativamente. Prints de cada página estão disponíveis na pasta `dashboard/` para quem quiser visualizar sem instalar o programa.
-
-```
-├── dashboard/
-│   ├── Dashboard_Vendas_Walmart.pbix   # arquivo do Power BI
-│   └── imagens/                        # prints de cada página do dashboard
-```
