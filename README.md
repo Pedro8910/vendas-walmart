@@ -42,8 +42,6 @@ python analise_vendas_walmart.py
 
 O arquivo `Relatorio_Walmart_Sales.docx` traz a interpretação dos resultados, incluindo o efeito dos feriados nas vendas e a relação entre indicadores econômicos e o desempenho de vendas.
 
-## Dashboard (Power BI)
 
-Além da análise em Python, o projeto inclui um dashboard interativo em Power BI com 4 páginas:
 
 
